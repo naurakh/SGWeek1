@@ -1,0 +1,126 @@
+.container{
+	width: 700px;
+	height: 100%;
+	margin: auto;
+}
+
+.navbar{
+	width: 100%;
+	height: 50px;
+	margin-bottom: 15px;
+	background-color: grey;
+	color: white;
+
+}
+
+.navbar .navbar-logo{
+	width: 50%;
+	float: left;
+}
+
+.navbar .navbar-menu{
+	width: 50%;
+	display: inline;
+	float: right;
+}
+
+
+
+ul.list-menu{
+	margin: 0;
+	padding: 0;
+}
+
+ul li{
+	display: inline;
+	margin-left: 10px;
+}
+
+.main{
+	width: 100%;
+	height: 600px;
+}
+
+.main-bar{
+	width: 70%;
+	float: left;
+}
+
+.side-bar{
+	width: 30%;
+	float: right;
+}
+
+.side-bar .side-main{
+	background-color: yellow;
+	height: 150px;
+}
+
+.main-bar .main-header{
+	height: 150px;
+	background: blue;
+	margin-right: 20px;
+	color: white;
+}
+
+.main-bar .main-content{
+	margin-top: 30px;
+}
+.main-content .content{
+	width: 45%;
+}
+
+.content.content-1{
+	float: left;
+	margin-left: 10px;
+}
+
+.content.content-2{
+	float: right;
+}
+
+.content-judul{
+	border-bottom: 1px solid rgb(0,0,0)
+}
+
+.side-bar .side-quote{
+	height: 150px;
+}
+
+blockquote{
+	font-family: Georgia, serif;
+	position: relative;
+	margin : 0.5em;
+	padding: 3em 2em 0.5em 3em;
+	text-align: center;
+}
+
+blockquote:before{
+	font-family: Georgia, serif;
+	position:absolute;
+	font-size: 6em;
+	line-height: 1;
+	top: 0;
+	left : 0;
+	content: "\201C";
+	color: green;
+}
+
+blockquote:after{
+	font-family: Georgia, serif;
+	position: absolute;
+	float:right;
+	font-size: 6em;
+	line-height: 1;
+	height: 20px;
+	right: 0;
+	bottom: -0.5em;
+	content: "\201D";
+	color: green;
+}
+
+.footer{
+	border-top: 1px solid black;
+	width: 100%;
+	height: 200px;
+}
